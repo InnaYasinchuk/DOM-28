@@ -32,8 +32,7 @@ liFirst.after(liSecond);
 
 liFourth.innerHTML = "4";
 liFourth.id = "fourth";
-liThird.after(liFourth);
-// list.append(liFourth);
+list.append(liFourth);
 
 console.log(ul.outerHTML);
 
